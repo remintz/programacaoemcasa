@@ -4,6 +4,7 @@
 
 Aqui vão algumas dicas aleatórias de como aproveitar melhor o curso:
 
+* Para o curso é necessário um computador por pessoa e uma boa conexão com a internet. O computador pode ser Windows, Linux ou Mac.
 * Trabalhe em uma mesa, em um local tranquilo.
 * Tenha à mão uma folha de papel e um lápis ou caneta para rabiscar e tomar notas.
 * Como são apenas 2 horas de aula, não haverá intervalo. Deixe à mão água e algo para enganar à fome.
