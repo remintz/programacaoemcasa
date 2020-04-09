@@ -1,0 +1,8 @@
+Qual é a capital do estado  Tocantins?
+
+    Opções:
+        A)  Palmas
+        B)  João Pessoa
+        C)  Brasília
+        D)  Boa Vista
+    

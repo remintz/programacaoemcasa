@@ -1,0 +1,8 @@
+Qual é a capital do estado  Mato Grosso?
+
+    Opções:
+        A)  Campo Grande
+        B)  Cuiabá
+        C)  Goiânia
+        D)  Recife
+    

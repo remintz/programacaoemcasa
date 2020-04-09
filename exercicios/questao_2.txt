@@ -1,0 +1,8 @@
+Qual é a capital do estado  Goiás?
+
+    Opções:
+        A)  Belo Horizonte
+        B)  Goiânia
+        C)  Palmas
+        D)  Florianópolis
+    

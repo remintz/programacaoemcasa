@@ -1,0 +1,8 @@
+Qual é a capital do estado  São Paulo?
+
+    Opções:
+        A)  São Paulo
+        B)  João Pessoa
+        C)  Goiânia
+        D)  Salvador
+    

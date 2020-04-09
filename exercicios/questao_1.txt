@@ -1,0 +1,8 @@
+Qual é a capital do estado  Rio de Janeiro?
+
+    Opções:
+        A)  Teresina
+        B)  Manaus
+        C)  Fortaleza
+        D)  Rio de Janeiro
+    
