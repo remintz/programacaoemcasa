@@ -1,0 +1,30 @@
+O arquivo ‘estados.csv’ possui a relação dos estados brasileiros. Cada linha contém:
+
+<nome>,<capital>
+
+ex:
+
+Minas Gerais, Belo Horizonte
+
+Faça um programa para gerar 5 questões de prova múltipla no formato abaixo.
+
+
+Qual é a capital do estado  Rondônia?
+
+    Opções:
+        A)  Vitória
+        B)  Maceió
+        C)  Porto Velho
+        D)  Goiânia
+
+
+As opções são escolhidas aleatoriamente mas devem incluir a resposta correta, que deve estar em uma posição aleatória
+
+Cada questão deve ser armazenada em um arquivo tipo texto com o nome ‘questao_<numero>.txt’, onde número contém o número da questão (1, 2, …). Também deve ser gerado um arquivo com o gabarito com o nome ‘gabarito.txt’ e o formato abaixo.
+
+Gabarito:
+
+Questão | Resposta Certa
+  1     |      A
+  2     |      B
+etc…

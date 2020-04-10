@@ -13,7 +13,7 @@ Fez-se do amigo próximo distante
 Fez-se da vida uma aventura errante
 De repente não mais que de repente """
 
-s = soneto.replace('\n', ' ')
+s = soneto.replace('\n', ' ').lower()
 s = s.split(' ')
 contador = {}
 for palavra in s:

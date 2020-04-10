@@ -1,0 +1,5 @@
+Data uma lista de nomes de gatos (abaixo), faça um programa que descubra os nomes que aparecem mais de uma vez (sem usar a função "count()" por favor...)
+
+
+
+['Coco', 'Princess', 'Samantha', 'Sheba', 'Abby', 'Gizmo', 'Lilly', 'Sammy', 'Pumpkin', 'Cali', 'Rascal', 'Toby', 'Luna', 'Boo', 'Mittens', 'Buddy', 'Pepper', 'Maggie', 'Daisy', 'Spooky', 'Samantha', 'Boo', 'Kiki', 'Mia', 'Boo', 'Dusty', 'Boo', 'Buster', 'Luna', 'Buster', 'Sheba', 'Angel', 'Pumpkin', 'Baby', 'Garfield', 'Maggie', 'Annie', 'Tinkerbell', 'Missy', 'Scooter', 'Buster', 'Toby', 'Muffin', 'Bailey', 'Tigger', 'Oscar', 'Lucy', 'Shadow', 'Chloe', 'Lilly', 'Chester', 'Midnight', 'Max', 'Trouble', 'Whiskers', 'Jasper', 'Mimi', 'Charlie', 'Precious', 'Bandit', 'Boots', 'Dusty', 'Snuggles', 'Zoe', 'Scooter', 'Mimi', 'Peanut', 'Mimi', 'Jasper', 'Felix', 'Oreo', 'Cuddles', 'Kitty', 'Tigger', 'Oscar', 'Sadie', 'Bubba', 'Smokey', 'Cookie', 'Snuggles', 'Whiskers', 'Misty', 'Sheba', 'Missy', 'Bear', 'Coco', 'Max', 'Cuddles', 'Loki', 'Baby', 'Toby', 'Casper', 'Oliver', 'Sugar', 'Pepper', 'Chloe', 'Buster', 'Milo', 'Kiki', 'Mia']

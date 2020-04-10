@@ -1,0 +1,4 @@
+Uma das formas de se ordenar uma lista é através do algoritmo de "Bubble Sort" - https://pt.wikipedia.org/wiki/Bubble_sort
+
+Escreva um programa que ordene a lista de nomes de gatos (veja em gatos.txt) usando o algoritmo de "Buble Sort"
+E
