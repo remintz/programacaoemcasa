@@ -1,0 +1,9 @@
+O arquivo ‘acidentes-bh-2018.csv’ contém uma lista das ocorrência de trânsito com vítimas em Belo Horizonte no ano de 2018. Uma das colunas tem o nome do logradouro onde ocorreu o acidente.
+
+Faça um programa que leia o arquivo ‘acidentes-bh-2018.csv’ e gere um outro arquivo chamado ‘acidentes-bh-2018-por-logradouro.csv’ onde cada linha deve conter o número de acidentes com vítimas em cada logradouro. O formato de cada linha deve ser:
+
+
+<nome_do_logradouro>,<número_de acidentes>
+
+
+nota: o arquivo original pode ser obtido no site https://dados.pbh.gov.br.  O arquivo usado no exercício tem apenas uma pequena modificação substituindo o caractere ‘º’ por ‘o’. Se quiser saber mais detalhes porque isto pode ser um problema, pergunte ao professor ou veja mais detalhes aqui.
