@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+
+<form action="/imc" method="post">
+    <label for="Peso">Peso:</label>
+    <input name="Peso" /><br>
+    <label for="Altura">Altura:</label>
+    <input name="Altura" /><br>
+    <input type="submit" value="ok">
+</form>
+
+{% endblock %}
