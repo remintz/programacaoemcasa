@@ -1,33 +1,55 @@
-from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QVBoxLayout, QLabel, QGridLayout
+from guizero import App, Window, Text, Box, PushButton
+import time
 
+from veseganhou import ve_se_ganhou, deu_velha
 
+status = [' '] * 9
 jogador = 'X'
+buttons = []
+cabecalho = None
+jogando = True
 
+def colore_resultado(resultado):
+    for i in range(9):
+        if resultado[i] == '+':
+            buttons[i].text_color = 'red'
+        else:
+            buttons[i].enabled = False
 
-def build_screen():
-    app = QApplication([])
-    window = QWidget()
-    layout = QVBoxLayout()
+def button_clicked(contador):
+    global jogador
+    global jogando
 
-    cabecalho = QVBoxLayout()
-    label = QLabel('Quem joga é o %s' % jogador)
-    cabecalho.addWidget(label)
-    layout.addLayout(cabecalho)
+    if not jogando:
+        return
+    if status[contador] == ' ':
+        status[contador] = jogador
+        buttons[contador].text = jogador
+        if deu_velha(status):
+            cabecalho.value = 'Deu velha!'
+            jogando=False
+            return
+        resultado = ve_se_ganhou(status, jogador)
+        if resultado is not None:
+            colore_resultado(resultado)
+            cabecalho.value = 'O %s venceu!' % jogador
+            jogando = False
+        else:
+            if jogador == 'X':
+                jogador = 'O'
+            else:
+                jogador = 'X'
+            cabecalho.value = 'Quem joga é o %s' % jogador
 
-    tabuleiro = QGridLayout()
-
-    buttons = []
+if __name__ == '__main__':
+    app = App()
+    cabecalho = Text(app, text='Quem joga é o %s' % jogador, size=20)
+    tabuleiro = Box(app, layout='grid')
+    contador = 0
     for i in range(3):
-        columns = []
         for j in range(3):
-            button = QPushButton('X')
-            tabuleiro.addWidget(button, i, j)
-            columns.append(button)
-        buttons.append(columns)
-    layout.addLayout(tabuleiro)
+            button = PushButton(tabuleiro, text=' ', grid=[i, j], width=10, height=6, command=button_clicked, args=[contador])
+            contador += 1
+            buttons.append(button)
+    app.display()
 
-    window.setLayout(layout)
-    window.show()
-    app.exec_()
-
-build_screen()
